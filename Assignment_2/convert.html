@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+
+
+    <!-- just making styling for this converter page -->
+    <style>
+        body{
+            text-align: center;
+        }
+
+        .head_class{
+            font-size: 40px;
+            
+        }
+
+        .making_box{
+            margin-top: 50px;
+            display: block;
+           
+        }
+
+
+    </style>
+
+    
+
+</head>
+<body>
+    <header class="head_class">Part 2</header>
+    <h3 class="sub_title">Currency Converter</h3><hr>
+
+    <div class="data">
+        <form action="" class="making_box">
+            <input type="text" id="USD" placeholder="Currency"  onchange="USD_calculation()" /> USD
+            </br></br>
+    
+            <label for="EUR">equals</label><br>
+            <input type="text" id="EUR" placeholder="Currency" onchange="EUR_calculation()" /> EUR
+            </br></br>
+    
+            <label for="GBP">equals</label><br>
+            <input type="text" id="GBP" placeholder="Currency" onchange="GBP_calculation()"/> GBP
+            </br></br>
+    
+            <label for="CAD">equals</label><br>
+            <input type="text" id="CAD" placeholder="Currency" onchange="CAD_calculation()" /> CAD
+            </br></br>
+    
+            
+            <label for="BDT">equals</label><br>
+            <input type="text" id="BDT" placeholder="Currency" onchange="BDT_calculation()" /> BDT
+    
+        </form>
+    </div>
+
+
+    <!-- link for js file -->
+    <script src="convert.js"></script>
+</body>
+</html>
+
